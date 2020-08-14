@@ -11,10 +11,12 @@ def fizzbuzz (int)
   elsif int % 3 == 0
      puts "Fizz"
      
-#Outputs "Fizz" because the respec test number (15) is divisible by (3) & (5)
+#Outputs "Fizz" because the respec test number (3) is divisible by (3)
      
   elsif int % 5 == 0
      puts "Buzz"
+     
+#Outputs "Buzz" because the respec test number (15) is divisible by (3) & (5)
     
    end
 end
