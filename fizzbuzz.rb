@@ -20,3 +20,5 @@ def fizzbuzz (int)
     
    end
 end
+
+#returns nil when the number is not divisible by 3 or 5
