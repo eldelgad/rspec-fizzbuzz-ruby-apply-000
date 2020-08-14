@@ -4,17 +4,17 @@
 def fizzbuzz (int)
 
   if int % 3 == 0 && int % 5 == 0
-    "FizzBuzz"
+    puts "FizzBuzz"
      
 #returns "FizzBuzz" when the number is divisible by 3 and 5
 
   elsif int % 3 == 0
-    "Fizz"
+    puts "Fizz"
      
 #returns "Fizz" when the number is divisible by 3
      
   elsif int % 5 == 0
-    "Buzz"  
+    puts "Buzz"  
      
 #returns "Buzz" when the number is divisible by 5
      
