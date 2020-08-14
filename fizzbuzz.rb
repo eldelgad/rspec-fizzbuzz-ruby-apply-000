@@ -6,7 +6,7 @@ def fizzbuzz (int)
   if int % 3 == 0
      puts "Fizz"
      
-#
+#returns "Fizz" when the number is divisible by 3
      
   elsif int % 5 == 0
      puts "Buzz"  
