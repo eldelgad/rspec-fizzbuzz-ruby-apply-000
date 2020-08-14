@@ -11,7 +11,7 @@ def fizzbuzz (int)
   elsif int % 3 == 0
      puts "Fizz"
      
-#prints "Fizz" because the respec test number (3) is divisible by (3) | 3 / 3 = 1
+#returns "Buzz" when the number is divisible by 5
      
   elsif int % 5 == 0
      puts "Buzz"
