@@ -3,20 +3,20 @@
 
 def fizzbuzz (int)
 
-  if int % 3 == 0 && int % 5 == 0
-     puts "FizzBuzz"
-     
-#returns "FizzBuzz" when the number is divisible by 3 and 5
-     
-  elsif int % 3 == 0
+  if int % 3 == 0
      puts "Fizz"
+     
+#
+     
+  elsif int % 5 == 0
+     puts "Buzz"  
      
 #returns "Buzz" when the number is divisible by 5
      
-  elsif int % 5 == 0
-     puts "Buzz"
+  elsif int % 3 == 0 && int % 5 == 0
+     puts "FizzBuzz"
      
-#prints "Buzz" because the respec test number (5) is divisible by (5) | 5 / 5 = 1
+#returns "FizzBuzz" when the number is divisible by 3 and 5
     
    end
 end
