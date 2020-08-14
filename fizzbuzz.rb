@@ -6,7 +6,7 @@ def fizzbuzz (int)
   if int % 3 == 0 && int % 5 == 0
      puts "FizzBuzz"
      
-#prints "FizzBuzz" because the respec test number (15) is divisible by (3) & (5) | 15 / 5 = 3 , 15 / 3 = 5
+#returns "FizzBuzz" when the number is divisible by 3 and 5
      
   elsif int % 3 == 0
      puts "Fizz"
