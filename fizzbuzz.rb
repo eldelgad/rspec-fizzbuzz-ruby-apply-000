@@ -6,7 +6,7 @@ def fizzbuzz (int)
   if int % 3 == 0 && int % 5 == 0
      puts "FizzBuzz"
      
-  #Outputs FizzBuzz because 
+  #Outputs FizzBuzz because the test 
      
   elsif int % 3 == 0
      puts "Fizz"
