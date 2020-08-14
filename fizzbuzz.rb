@@ -3,7 +3,12 @@
 
 def fizzbuzz (int)
 
-  if int % 3 == 0
+  if int % 3 == 0 && int % 5 == 0
+    "FizzBuzz"
+     
+#returns "FizzBuzz" when the number is divisible by 3 and 5
+
+  elsif int % 3 == 0
     "Fizz"
      
 #returns "Fizz" when the number is divisible by 3
@@ -13,11 +18,6 @@ def fizzbuzz (int)
      
 #returns "Buzz" when the number is divisible by 5
      
-  elsif int % 3 == 0 && int % 5 == 0
-    "FizzBuzz"
-     
-#returns "FizzBuzz" when the number is divisible by 3 and 5
-    
    end
 end
 
